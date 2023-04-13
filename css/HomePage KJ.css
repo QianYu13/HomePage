@@ -1,0 +1,38 @@
+/*重置所有元素的内边距与外边距*/
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+/* 设置内容区域 */
+.content {
+	width: 900px;
+	height: 500px;
+	/* 设置内容区域相对于父元素的外边距 */
+	margin: 200px auto 200px auto;
+	/* 设置内容区域圆角 */
+	border-radius: 120px 120px  120px 120px;
+	/* 设置内容区域背景颜色及透明度 */
+	background-color: rgba(236, 236, 236, 0.35);
+	/* 设置过渡效果 */
+	transition: all 2.0s;
+	/* 设置内容区域阴影 */
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.content:hover {
+	/* 鼠标悬停时设置内容区域阴影 */
+	box-shadow: 0px 0px 20px rgba(255, 193, 180, 0.5);
+}
+
+/* 设置内容区域中的图片 */
+.content_a{
+	float: left;
+	width: 200px;
+	height: 200px;
+	/* 设置图片相对于父元素的外边距 */
+	margin: 150px 360px;
+	/* 设置图片圆角 */
+	border-radius: 100px;
+}
